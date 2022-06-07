@@ -72,7 +72,7 @@ The following information are required to connect to Flexible Engine Data Inject
 
 In order to run deploy the Edge Application on Flexible Engine Intelligent Edge Fabric  (IEF), the Edge Node needs to be registered within IEF. Please follow the [Registering an Edge Node](https://docs.prod-cloud-ocb.orange-business.com/en-us/usermanual/ief/ief_01_0084.html) 
 
-The following video illustrates how to register the Edge Node on Flexible Engine IEF : [![Register Edge Node Video in IEF](https://i.imgur.com/vKb2F1B.png)](http://chilp.it/1663ce0)  
+The following video illustrates how to register the Edge Node on Flexible Engine IEF : [![Register Edge Node Video in IEF](https://i.imgur.com/vKb2F1B.png)](http://fe-obs-share-bucket.oss.eu-west-0.prod-cloud-ocb.orange-business.com/FE%20Demonstrations/04_DEMO-EDGE%20IOT%20DEPLOYMENT%20FROM%20CLOUD/01_Plan%20Build/01_V1/02_Demo_Build_Instruction/01_IEF_RegisterNode.mp4)  
 
 ## 3. Create the Data Injection Service (DIS) Stream
 
