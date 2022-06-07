@@ -149,6 +149,8 @@ For this demonstration, we use IEF for the following Envrionement Variables:
 
 #### 4.4 Deploy the Application on the Edge Node thanks to IEF  
 
+The following video illustrates how to Deploy the Application on the Edge Node thanks to IEF: 
+
 [![Create Stream Video in DIS](http://fe-obs-share-bucket.oss.eu-west-0.prod-cloud-ocb.orange-business.com/FE%20Demonstrations/99_MISC/VideoPlayImage.PNG)](http://fe-obs-share-bucket.oss.eu-west-0.prod-cloud-ocb.orange-business.com/FE%20Demonstrations/04_DEMO-EDGE%20IOT%20DEPLOYMENT%20FROM%20CLOUD/01_Plan%20Build/01_V1/02_Demo_Build_Instruction/03_Deploy_IOT_EdgeApplication.mp4) 
 
 Go to **Edge Application**, then **Containerized Application**, then click on **Create Containerized Application**
