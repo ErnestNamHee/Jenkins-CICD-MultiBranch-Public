@@ -226,6 +226,7 @@ With:
 The following video illustrates how to connect to IOT Message Broker and publish message using MQTT protocol as if IOT Device would do so: [![Publish Message](https://i.imgur.com/vKb2F1B.png)](https://fe-obs-share-bucket.oss.eu-west-0.prod-cloud-ocb.orange-business.com/FE%20Demonstrations/04_DEMO-EDGE%20IOT%20DEPLOYMENT%20FROM%20CLOUD/01_Plan%20Build/01_V1/02_Demo_Build_Instruction/04_IOT_Device_Send_Message.mp4)
 
 
+
 For this demonstration, we use the following information to connect to **ief-demo-edge-mqtt**:
 Variable Name | Variable Value/Reference | Description |
 | --- | --- | --- |
