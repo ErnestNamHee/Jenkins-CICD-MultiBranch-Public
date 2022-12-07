@@ -237,4 +237,4 @@ Variable Name | Variable Value/Reference | Description |
 
 In order to check that the message has been pushed to **ief-demo-edge-mqtt** => **ief-demo-edge-core** => Flexible Engine Data Injection Service, we can check the data collected by DIS as per below
 
-The following video illustrates how to check the traffic on DIS and downloed the data file collected by DIS : [![Check DIS](https://i.imgur.com/vKb2F1B.png)](https://fe-obs-share-bucket.oss.eu-west-0.prod-cloud-ocb.orange-business.com/FE%20Demonstrations/04_DEMO-EDGE%20IOT%20DEPLOYMENT%20FROM%20CLOUD/01_Plan%20Build/01_V1/02_Demo_Build_Instruction/05_Check DIS.mp4)
+The following video illustrates how to check the traffic on DIS and downloed the data file collected by DIS: [![Check DIS](https://i.imgur.com/vKb2F1B.png)](https://fe-obs-share-bucket.oss.eu-west-0.prod-cloud-ocb.orange-business.com/FE%20Demonstrations/04_DEMO-EDGE%20IOT%20DEPLOYMENT%20FROM%20CLOUD/01_Plan%20Build/01_V1/02_Demo_Build_Instruction/05_Check DIS.mp4)
