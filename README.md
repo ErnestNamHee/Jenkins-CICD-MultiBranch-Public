@@ -149,7 +149,7 @@ For this demonstration, we use IEF for the following Envrionement Variables:
 
 #### 4.4 Deploy the Application on the Edge Node thanks to IEF  
 
-[![Create Stream Video in DIS](https://i.imgur.com/vKb2F1B.png)](https://chilp.it/db05a84)  
+[![Create Stream Video in DIS](https://i.imgur.com/vKb2F1B.png)](https://fe-obs-share-bucket.oss.eu-west-0.prod-cloud-ocb.orange-business.com/FE%20Demonstrations/04_DEMO-EDGE%20IOT%20DEPLOYMENT%20FROM%20CLOUD/01_Plan%20Build/01_V1/02_Demo_Build_Instruction/03_Deploy_IOT_EdgeApplication.mp4)  
 
 Go to **Edge Application**, then **Containerized Application**, then click on **Create Containerized Application**
 
@@ -223,7 +223,7 @@ With:
 - **average_speed**: is the average spead of the car when the message is sent by the IOT device
 - **total_miles**: is the total number of miles of the car when the message is sent by yhe IOT device.
 
-The following video illustrates how to connect to IOT Message Broker and publish message using MQTT protocol as if IOT Device would do so: [![Publish Message](https://i.imgur.com/vKb2F1B.png)](https://chilp.it/7a7bd0c)  
+The following video illustrates how to connect to IOT Message Broker and publish message using MQTT protocol as if IOT Device would do so: [![Publish Message](https://i.imgur.com/vKb2F1B.png)](https://fe-obs-share-bucket.oss.eu-west-0.prod-cloud-ocb.orange-business.com/FE%20Demonstrations/04_DEMO-EDGE%20IOT%20DEPLOYMENT%20FROM%20CLOUD/01_Plan%20Build/01_V1/02_Demo_Build_Instruction/04_IOT_Device_Send_Message.mp4)
 
 
 For this demonstration, we use the following information to connect to **ief-demo-edge-mqtt**:
@@ -237,4 +237,4 @@ Variable Name | Variable Value/Reference | Description |
 
 In order to check that the message has been pushed to **ief-demo-edge-mqtt** => **ief-demo-edge-core** => Flexible Engine Data Injection Service, we can check the data collected by DIS as per below
 
-The following video illustrates how to check the traffic on DIS and downloed the data file collected by DIS : [![Check DIS](https://i.imgur.com/vKb2F1B.png)](https://chilp.it/04fff67)  
+The following video illustrates how to check the traffic on DIS and downloed the data file collected by DIS : [![Check DIS](https://i.imgur.com/vKb2F1B.png)](https://fe-obs-share-bucket.oss.eu-west-0.prod-cloud-ocb.orange-business.com/FE%20Demonstrations/04_DEMO-EDGE%20IOT%20DEPLOYMENT%20FROM%20CLOUD/01_Plan%20Build/01_V1/02_Demo_Build_Instruction/05_Check DIS.mp4)
