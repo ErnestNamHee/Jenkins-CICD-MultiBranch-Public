@@ -14,7 +14,7 @@ spec:
  - name: nginx-apps0
    port: 8011 # Cluster virtual IP address access port, which has
    protocol: TCP
-   targetPort: 8080 # Container port set on the CCE console.
+   targetPort: 80 # Container port set on the CCE console.
 
 
  selector:
