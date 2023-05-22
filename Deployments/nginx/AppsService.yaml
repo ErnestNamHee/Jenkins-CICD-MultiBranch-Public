@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Service
+metadata:
+
+ annotations:
+   kubernetes.io/elb.class: union
+   kubernetes.io/elb.id: 46b2e252-b789-47cd-b8fc-8f6098ac4017
+ labels:
+   app: nginx-apps
+ name: nginx-apps
+spec:
+ loadBalancerIP: 90.84.195.132 # IP address of the an ELB service in a public
+ ports:
+ - name: videoserver0
+   port: 8011 # Cluster virtual IP address access port, which has
+   protocol: TCP
+   targetPort: 8080 # Container port set on the CCE console.
+
+
+ selector:
+   app: nginx-apps
+ type: LoadBalancer # The EIP must be based on an NodePort service.
