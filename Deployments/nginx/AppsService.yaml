@@ -11,7 +11,7 @@ metadata:
 spec:
  loadBalancerIP: 90.84.195.132 # IP address of the an ELB service in a public
  ports:
- - name: videoserver0
+ - name: nginx-apps0
    port: 8011 # Cluster virtual IP address access port, which has
    protocol: TCP
    targetPort: 8080 # Container port set on the CCE console.
