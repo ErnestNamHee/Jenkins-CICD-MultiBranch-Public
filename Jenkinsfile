@@ -35,7 +35,7 @@ pipeline  {
             steps {
                 echo "Deploy to CCE"
                 withKubeConfig([credentialsId: 'CCEKubeconfigDemo4Secret']) {
-                    //sh "kubectl delete deployment.apps/nginx-apps"
+                    sh "kubectl delete deployment.apps/nginx-apps"
                     sh "kubectl create  -f ./Deployments/nginx/AppsDeployment.yaml"
                     //sh "kubectl delete service/nginx"
                     sh "kubectl create  -f ./Deployments/nginx/AppsService.yaml"
