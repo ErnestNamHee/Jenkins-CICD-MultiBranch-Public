@@ -37,7 +37,7 @@ pipeline  {
                 withKubeConfig([credentialsId: 'CCEKubeconfigDemo4Secret']) {
                     sh "kubectl delete deployment.apps/nginx-apps"
                     sh "kubectl create  -f ./Deployments/nginx/AppsDeployment.yaml"
-                    //sh "kubectl delete service/nginx"
+                    sh "kubectl delete service/nginx-apps"
                     sh "kubectl create  -f ./Deployments/nginx/AppsService.yaml"
                     
                 }
