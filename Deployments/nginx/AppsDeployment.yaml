@@ -15,7 +15,7 @@ spec:
        app: nginx-apps
    spec:
      containers:
-     - image: registry.eu-west-0.prod-cloud-ocb.orange-business.com/ernest/ief-demo-jupyterlab-cpu:latest
+     - image: registry.eu-west-0.prod-cloud-ocb.orange-business.com/ernest/nginx-custom-image:latest
        imagePullPolicy: Always
        name: nginx-apps
        resources:
